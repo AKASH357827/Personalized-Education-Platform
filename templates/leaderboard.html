@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnSphere - Leaderboard</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="static\style.js"></script>
+</head>
+<body class="bg-gradient-to-br from-indigo-500 to-purple-600 min-h-screen">
+    <!-- Navigation Bar -->
+    <nav class="bg-white bg-opacity-90 shadow-lg px-6 py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-indigo-600">LearnSphere</h1>
+            <div class="flex items-center gap-4">
+                <a href="{{ url_for('main.index') }}"
+                   class="flex items-center gap-2 text-gray-600 hover:text-indigo-600 transition-colors">
+                    <span class="font-medium">Back to Dashboard</span>
+                </a>
+                <a href="{{ url_for('auth.logout') }}"
+                   class="flex items-center gap-2 text-gray-600 hover:text-indigo-600 transition-colors">
+                    <span class="font-medium">Logout</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+                </svg>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mx-auto px-4 py-12">
+        <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-2xl p-8 backdrop-blur-lg bg-opacity-90">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Leaderboard</h2>
+
+            <!-- Leaderboard Table -->
+            <div class="overflow-x-auto">
+                <table class="w-full">
+                    <thead class="bg-indigo-100">
+                        <tr>
+                            <th class="px-6 py-4 text-left text-sm font-bold text-indigo-800 uppercase tracking-wider rounded-tl-lg">Rank</th>
+                            <th class="px-6 py-4 text-left text-sm font-bold text-indigo-800 uppercase tracking-wider">Username</th>
+                            <th class="px-6 py-4 text-left text-sm font-bold text-indigo-800 uppercase tracking-wider">Badge</th>
+                            <th class="px-6 py-4 text-left text-sm font-bold text-indigo-800 uppercase tracking-wider rounded-tr-lg">Total Score</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white divide-y divide-gray-200">
+                        {% for user in leaderboard_data %}
+                        <tr class="{% if user.rank == 1 %}bg-yellow-50{% endif %} hover:bg-gray-50 transition-colors">
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                <span class="text-sm font-medium text-gray-900">{{user.rank}}</span>
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                <span class="text-sm text-gray-900">{{ user.username }}</span>
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                {% if loop.index == 1 %}
+                                <span class="px-2 py-1 text-xs font-semibold rounded-full bg-yellow-100 text-yellow-800">Gold</span>
+                                {% elif loop.index == 2 %}
+                                <span class="px-2 py-1 text-xs font-semibold rounded-full bg-gray-100 text-gray-800">Silver</span>
+                                {% elif loop.index == 3 %}
+                                <span class="px-2 py-1 text-xs font-semibold rounded-full bg-orange-100 text-orange-800">Bronze</span>
+                                {% else %}
+                                <span class="px-2 py-1 text-xs font-semibold rounded-full bg-gray-100 text-gray-600">Participant</span>
+                                {% endif %}
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                                {{ user.score }}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

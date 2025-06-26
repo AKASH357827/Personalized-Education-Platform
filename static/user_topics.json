@@ -1,0 +1,94 @@
+{
+    "niranjan123": {
+        "topics": {
+            "react": {
+                "table_of_contents": [
+                    "Introduction to React",
+                    "JSX and Components",
+                    "State and Props",
+                    "Event Handling and Binding",
+                    "React Hooks and Lifecycle Methods",
+                    "React Router and Navigation",
+                    "State Management with Redux",
+                    "React Context API and Optimization",
+                    "Debugging and Testing React Applications",
+                    "Best Practices and Advanced Topics in React"
+                ],
+                "created_at": "2025-03-12T20:12:23.634821+05:30"
+            },
+            "django": {
+                "table_of_contents": [
+                    "Introduction to Django",
+                    "Setting up a Django Project",
+                    "Django Models and Databases",
+                    "Django Views and Templates",
+                    "Django URLs and Routing",
+                    "Handling Forms and User Input",
+                    "User Authentication and Authorization",
+                    "Working with Django Admin",
+                    "Deploying a Django Application",
+                    "Best Practices and Advanced Topics"
+                ],
+                "created_at": "2025-03-12T20:24:11.425032+05:30"
+            },
+            "css": {
+                "table_of_contents": [
+                    "Introduction to CSS and Selectors",
+                    "CSS Properties and Values",
+                    "CSS Layout and Responsive Design"
+                ],
+                "created_at": "2025-04-19T22:49:11.057169+05:30"
+            },
+            "c#": {
+                "table_of_contents": [
+                    "Introduction to C# Basics",
+                    "Object-Oriented Programming in C#",
+                    "Advanced C# Topics and Best Practices"
+                ],
+                "created_at": "2025-04-20T13:09:23.504335+05:30"
+            },
+            "html": {
+                "table_of_contents": [
+                    "Introduction to HTML and Basic Syntax",
+                    "HTML Structure and Elements",
+                    "HTML Attributes and Forms"
+                ],
+                "created_at": "2025-04-20T13:38:17.650450+05:30"
+            }
+        }
+    },
+    "preetham123": {
+        "topics": {
+            "c#": {
+                "table_of_contents": [
+                    "Introduction to C#",
+                    "Data Types and Variables",
+                    "Operators and Control Structures",
+                    "Functions and Methods",
+                    "Object-Oriented Programming",
+                    "Exception Handling",
+                    "File Input/Output and Persistence",
+                    "Collections and Generics",
+                    "Delegates and Events",
+                    "Advanced Topics in C#"
+                ],
+                "created_at": "2025-03-13T09:12:45.235113+05:30"
+            },
+            "react": {
+                "table_of_contents": [
+                    "Introduction to React",
+                    "Setting Up a React Environment",
+                    "React Components and JSX",
+                    "State and Props in React",
+                    "React Lifecycle Methods",
+                    "React Hooks and Context API",
+                    "React Router for Navigation",
+                    "Redux for State Management",
+                    "React Best Practices and Optimization",
+                    "Building a Full-Stack React Application"
+                ],
+                "created_at": "2025-03-13T09:52:56.560928+05:30"
+            }
+        }
+    }
+}

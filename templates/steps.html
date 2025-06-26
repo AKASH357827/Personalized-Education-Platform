@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEP - Learning {{ topic }} - Step {{ current_step + 1 }}</title>
+    <style>
+        .bg-primary-600 { background-color: #4F46E5; }
+        .bg-primary-700 { background-color: #4338CA; }
+        .hover\:bg-primary-700:hover { background-color: #4338CA; }
+    </style>
+    <link rel="stylesheet" href="\static\steps.css">
+    <script src="\static\steps.js"></script>
+<script src="\static\style.js"></script>
+<script>hljs.highlightAll();</script>
+</head>
+<body class="min-h-screen bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div class="flex items-center py-4 px-2">
+                        <span class="font-semibold text-gray-700 text-lg">LearnSphear</span>
+                    </div>
+                    <div class="flex justify-end items-center space-x-1">
+                        {% if session.logged_in %}
+                            <a href="{{ url_for('main.index') }}" class="py-4 px-2 text-gray-700 hover:text-gray-900">Dashboard</a>
+                            <a href="{{ url_for('main.profile') }}" class="py-4 px-2 text-gray-700 hover:text-gray-900">Profile</a>
+                            <a href="{{ url_for('main.leaderboard') }}" class="py-4 px-2 text-gray-700 hover:text-gray-900">Leaderboard</a>
+                            <a href="{{ url_for('auth.logout') }}" class="py-4 px-2 text-gray-700 hover:text-gray-900">Logout</a>
+                        {% else %}
+                            <a href="{{ url_for('main.home') }}" class="py-4 px-2 text-gray-700 hover:text-gray-900">Home</a>
+                            <a href="{{ url_for('auth.login') }}" class="py-4 px-2 text-gray-700 hover:text-gray-900">Login</a>
+                            <a href="{{ url_for('auth.register') }}" class="py-4 px-2 text-gray-700 hover:text-gray-900">Register</a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+  
+
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto px-4 py-8">
+        <div class="container mx-auto px-4 py-8">
+            <div class="flex justify-between items-center mb-8">
+                <h1 class="text-3xl font-bold text-gray-800">Topic: {{topic.replace("custom_","") }}</h1>
+                <div class="text-gray-600">Step {{ current_step}} of {{ total_steps }}</div>
+            </div>
+        
+            <!-- Progress bar -->
+            <div class="w-full bg-gray-200 rounded-full h-2.5 mb-8">
+                <div class="bg-primary-600 h-2.5 rounded-full" style="width: {{ progress }}%"></div>
+            </div>
+        
+            <!-- Content -->
+            <div class="bg-white rounded-xl shadow-md p-8">
+                {% for item in content %}
+                    {% if item.content %}
+                        <div class="space-y-8">
+                            <!-- Title and Introduction -->
+                            <div>
+                                <h2 class="text-3xl font-bold text-gray-800 mb-4">{{ item.content.title }}</h2>
+                                <div class="text-lg text-gray-600">{{ item.content.introduction|markdown|safe }}</div>
+                            </div>
+        
+                            <!-- Sections -->
+                            {% for section in item.content.sections %}
+                            <div class="bg-gray-50 rounded-lg p-6 space-y-4">
+                                <h3 class="text-2xl font-semibold text-gray-800">{{ section.heading }}</h3>
+                                <div class="text-gray-600">{{ section.description|markdown|safe }}</div>
+                                
+                                <!-- Examples -->
+                                {% if section.examples %}
+                                <div class="bg-gray-50 rounded-lg p-4">
+                                    <h4 class="font-semibold text-gray-700 mb-2">Examples:</h4>
+                                    {% for example in section.examples %}
+                                        <div class="bg-gray-900 text-white rounded-lg p-4 my-2 font-mono">
+                                            <pre><code class="language-python">{{ example }}</code></pre>
+                                        </div>
+                                    {% endfor %}
+                                </div>
+                                {% endif %}
+        
+                                <!-- Notes -->
+                                {% if section.notes %}
+                                <div class="bg-yellow-50 rounded-lg p-4 border border-yellow-200">
+                                    <h4 class="font-semibold text-yellow-800 mb-2">📝 Notes:</h4>
+                                    <p class="text-yellow-800">{{ section.notes }}</p>
+                                </div>
+                                {% endif %}
+                            </div>
+                            {% endfor %}
+        
+                            <!-- Summary -->
+                            <div class="bg-indigo-50 rounded-lg p-6 mt-8">
+                                <h3 class="text-xl font-semibold text-indigo-800 mb-2">Summary</h3>
+                                <p class="text-indigo-700">{{ item.content.summary }}</p>
+                                {% if item.content.notes %}
+                                    <p class="mt-4 text-indigo-600">{{ item.content.notes }}</p>
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        
+            <!-- Navigation -->
+            <div class="flex justify-between mt-8">
+                {% if current_step > 0 %}
+                <a href="{{ url_for('course.topic_step', topic=topic, step=current_step-1) }}"
+                   class="bg-gray-600 hover:bg-gray-700 text-white px-6 py-3 rounded-lg">Previous Step</a>
+                {% else %}
+                <div></div>
+                {% endif %}
+          
+                {% if current_step < total_steps %}
+                <a href="{{ url_for('course.topic_step', topic=topic, step=current_step+1) }}"
+                   class="bg-primary-600 hover:bg-primary-700 text-white px-6 py-3 rounded-lg">Next Step</a>
+                   {% endif %} {% if current_step==total_steps %}
+                <a href="{{ url_for('quiz.quiz', topic=topic) }}" class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg">Take Quiz on {{ topic }}</a>       
+                         {% endif %}
+            </div>
+        </div>
+        
+    </main>
+    <!-- Footer if needed -->
+    <footer>
+        <!-- Add footer content -->
+    </footer>
+</body>
+</html>

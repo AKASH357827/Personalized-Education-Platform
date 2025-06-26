@@ -1,0 +1,7 @@
+
+*.pyc
+.env
+env
+config.py
+__init__.py
+

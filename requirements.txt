@@ -1,0 +1,10 @@
+
+Flask
+Flask-SQLAlchemy
+mysqlclient
+pymysql
+python-dotenv
+groq
+markdown2
+bcrypt
+pytz

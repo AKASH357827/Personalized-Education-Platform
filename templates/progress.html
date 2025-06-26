@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnSphere - Progress</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="static\style.js"></script>
+</head>
+<body class="bg-gradient-to-br from-indigo-500 to-purple-600 min-h-screen">
+    <!-- Navigation Bar -->
+    <nav class="bg-white bg-opacity-90 shadow-lg px-6 py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-indigo-600">LearnSphere</h1>
+            <div class="flex items-center gap-4">
+                <a href="{{ url_for('main.index') }}"
+                   class="flex items-center gap-2 text-gray-600 hover:text-indigo-600 transition-colors">
+                    <span class="font-medium">Back to Dashboard</span>
+                </a>
+                <a href="{{ url_for('auth.logout') }}"
+                   class="flex items-center gap-2 text-gray-600 hover:text-indigo-600 transition-colors">
+                    <span class="font-medium">Logout</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+                </svg>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mx-auto px-4 py-12">
+        <div class="max-w-2xl mx-auto bg-white rounded-2xl shadow-2xl p-8 backdrop-blur-lg bg-opacity-90">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Quiz Progress</h2>
+
+            <!-- Score Display -->
+            <div class="text-center mb-8">
+                <p class="text-2xl font-bold text-gray-700 mb-4">
+                    You Scored: <span class="text-indigo-600">{{result.score}} / 10</span>
+                </p>
+                {% if result.score > 7 %}
+                <div class="flex justify-center">
+                    <img class="w-24 h-24 object-contain animate-bounce"
+                         src="{{ url_for('static', filename='quality.png') }}"
+                         alt="Achievement Badge">
+                </div>
+                {% endif %}
+            </div>
+
+            <!-- Recommended Topics -->
+            <div class="bg-gray-50 rounded-xl p-6 mb-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">Recommended Topics</h3>
+                <div class="space-y-3">
+                    {% for i in result.improvement %}
+                    <a href="{{i.1}}"
+                       class="block p-3 bg-white rounded-lg shadow hover:shadow-md transition-shadow duration-200 text-indigo-600 hover:text-indigo-800">
+                        {{i.0}}
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="{{ url_for('quiz.quiz') }}"
+                   class="px-8 py-3 bg-indigo-600 text-white rounded-lg font-semibold hover:bg-indigo-700 transform hover:scale-105 transition-all duration-200 text-center">
+                    Try Another Quiz
+                </a>
+                <a href="{{ url_for('main.index') }}"
+                   class="px-8 py-3 border-2 border-indigo-600 text-indigo-600 rounded-lg font-semibold hover:bg-indigo-50 transform hover:scale-105 transition-all duration-200 text-center">
+                    Back to Dashboard
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

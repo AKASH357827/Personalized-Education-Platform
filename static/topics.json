@@ -1,0 +1,62 @@
+{
+    "python": [
+      {"subtopic": "Variables and Data Types"},
+      {"subtopic": "Operators"},
+      {"subtopic": "Control Flow (if, else, elif)"},
+      {"subtopic": "Loops (for, while)"},
+      {"subtopic": "Functions"},
+      {"subtopic": "Lists"},
+      {"subtopic": "Tuples"},
+      {"subtopic": "Dictionaries"},
+      {"subtopic": "Sets"},
+      {"subtopic": "Classes and Objects"}
+    ],
+    "java": [
+      {"subtopic": "Variables and Data Types"},
+      {"subtopic": "Operators"},
+      {"subtopic": "Control Flow Statements"},
+      {"subtopic": "Loops"},
+      {"subtopic": "Methods"},
+      {"subtopic": "Classes and Objects"},
+      {"subtopic": "Inheritance"},
+      {"subtopic": "Polymorphism"},
+      {"subtopic": "Arrays"},
+      {"subtopic": "Strings"}
+    ],
+    "javaScript": [
+      {"subtopic": "Variables and Data Types"},
+      {"subtopic": "Operators"},
+      {"subtopic": "Control Flow (if, else)"},
+      {"subtopic": "Loops (for, while)"},
+      {"subtopic": "Functions"},
+      {"subtopic": "Arrays"},
+      {"subtopic": "Objects"},
+      {"subtopic": "DOM Manipulation"},
+      {"subtopic": "Events"},
+      {"subtopic": "Asynchronous JavaScript"}
+    ],
+    "c": [
+      {"subtopic": "Variables and Data Types"},
+      {"subtopic": "Operators"},
+      {"subtopic": "Control Flow (if, else)"},
+      {"subtopic": "Loops (for, while)"},
+      {"subtopic": "Functions"},
+      {"subtopic": "Arrays"},
+      {"subtopic": "Pointers"},
+      {"subtopic": "Structures"},
+      {"subtopic": "Input and Output"},
+      {"subtopic": "Memory Management"}
+    ],
+    "sql": [
+      {"subtopic": "SELECT Statement"},
+      {"subtopic": "WHERE Clause"},
+      {"subtopic": "ORDER BY Clause"},
+      {"subtopic": "JOIN Operations"},
+      {"subtopic": "GROUP BY Clause"},
+      {"subtopic": "Aggregate Functions"},
+      {"subtopic": "INSERT Statement"},
+      {"subtopic": "UPDATE Statement"},
+      {"subtopic": "DELETE Statement"},
+      {"subtopic": "CREATE TABLE Statement"}
+    ]
+}

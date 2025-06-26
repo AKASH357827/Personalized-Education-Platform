@@ -1,0 +1,104 @@
+{
+    "python": [
+      [
+        "Asynchronous Programming with Asyncio",
+        "https://www.geeksforgeeks.org/asyncio-in-python/"
+      ],
+      [
+        "Metaclasses and Dynamic Class Creation",
+        "https://www.geeksforgeeks.org/python-metaclasses/?ref=header_ind"
+      ],
+      [
+        "Function Wrappers",
+        "https://www.geeksforgeeks.org/function-wrappers-in-python/?ref=header_ind"
+      ],
+      [
+        "Extending Python with C/C++ (Cython)",
+        "https://www.geeksforgeeks.org/how-to-call-c-c-from-python/?ref=header_ind"
+      ],
+      [
+        "Memory Management and Garbage Collection",
+        "https://www.geeksforgeeks.org/memory-management-in-python/?ref=header_ind"
+      ]
+    ],
+    "java": [
+      [
+        "Concurrency and Parallelism with CompletableFuture",
+        "https://www.w3schools.com/java/java_threads.asp"
+      ],
+      [
+        "JVM Internals",
+        "https://www.geeksforgeeks.org/java/?ref=header_ind"
+      ],
+      [
+        "Java Memory Model and Garbage Collection Tuning",
+        "https://www.geeksforgeeks.org/java-memory-management/?ref=header_ind"
+      ],
+      [
+        "Advanced Design Patterns (e.g., Reactive, CQRS)",
+        "https://www.geeksforgeeks.org/java-design-patterns/?ref=header_ind"
+      ],
+      [
+        "Java Native Interface (JNI) for Interoperability",
+        "https://www.geeksforgeeks.org/java-native-interface/?ref=header_ind"
+      ]
+    ],
+    "c": [
+      [
+        "Low-Level Memory Management and Optimization",
+        "https://www.geeksforgeeks.org/static-and-dynamic-memory-allocation-in-c/?ref=header_ind"
+      ],
+      [
+        "Data Structures",
+        "https://www.geeksforgeeks.org/what-are-the-c-programming-concepts-used-as-data-structures/?ref=header_ind"
+      ],
+      [
+        "Concurrency with Threads and Mutexes",
+        "https://www.geeksforgeeks.org/multithreading-in-c/?ref=header_ind"
+      ],
+      [
+        "Compiler Design and Language Implementation",
+        "https://www.geeksforgeeks.org/language-processing-system-in-compiler-design/?ref=header_ind"
+      ]
+    ],
+    "javascript": [
+      [
+        "Framework(React/Angular/Vue Internals)",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries"
+      ],
+      [
+        "WebAssembly Integration",
+        "https://developer.mozilla.org/en-US/docs/WebAssembly/Guides/Using_the_JavaScript_API"
+      ],
+      [
+        "Service Workers and Offline Capabilities",
+        "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers"
+      ],
+      [
+        "Performance Optimization Techniques",
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Performance/JavaScript"
+      ],
+      [
+        "Advanced Design Patterns (e.g., MVC)",
+        "https://developer.mozilla.org/en-US/docs/Glossary/MVC"
+      ]
+    ],
+    "sql": [
+      [
+        "Advanced Query Optimization Techniques",
+        "https://www.geeksforgeeks.org/best-practices-for-sql-query-optimizations/?ref=header_ind"
+      ],
+      [
+        "Stored Procedures",
+        "https://www.w3schools.com/sql/sql_stored_procedures.asp"
+      ],
+      [
+        "Window Functions and Analytical Queries",
+        "https://www.geeksforgeeks.org/window-functions-in-sql/?ref=header_ind"
+      ],
+      [
+        "Database Partitioning and Sharding",
+        "https://www.geeksforgeeks.org/difference-between-database-sharding-and-partitioning/"
+      ]
+    ]
+  }

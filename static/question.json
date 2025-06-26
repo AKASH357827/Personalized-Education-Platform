@@ -1,0 +1,896 @@
+{
+  "python": [
+    {
+      "id": 1,
+      "question": "Which keyword is used to declare a function in Python?",
+      "options": ["def", "define", "func", "function"],
+      "answer": 0,
+      "subtopic": "Functions",
+      "link": "https://www.geeksforgeeks.org/python-functions/?ref=header_ind"
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is NOT a valid Python variable name?",
+      "options": ["_var", "my_var", "VarName", "123var"],
+      "answer": 3,
+      "subtopic": "Variables",
+      "link": "https://www.w3schools.com/python/python_variables.asp"
+    },
+    {
+      "id": 3,
+      "question": "What data type is used to store a sequence of characters in Python?",
+      "options": ["string", "array", "text", "char"],
+      "answer": 0,
+      "subtopic": "Data Types",
+      "link": "https://www.w3schools.com/python/python_strings.asp"
+    },
+    {
+      "id": 4,
+      "question": "What is the output of `print(type(10))`?",
+      "options": ["'<'class 'str''>'", "'<'class 'int''>'", "'<'class 'float''>'", "'<'class 'bool''>'"],
+      "answer": 1,
+      "subtopic": "Data Types",
+      "link": "https://www.w3schools.com/python/python_datatypes.asp"
+    },
+    {
+      "id": 5,
+      "question": "What does `str(5)` return?",
+      "options": ["integer", "5", "'5'", "5.0"],
+      "answer": 2,
+      "subtopic": "Data Types",
+      "link": "https://www.w3schools.com/python/ref_func_str.asp"
+    },
+    {
+      "id": 6,
+      "question": "What is the result of `True and False`?",
+      "options": ["None", "False", "Error", "True"],
+      "answer": 1,
+      "subtopic": "Boolean Logic",
+      "link": "https://www.w3schools.com/python/python_booleans.asp"
+    },
+    {
+      "id": 7,
+      "question": "What is the result of `10 / 3` in Python 3?",
+      "options": ["3.0", "3", "3.3333333333333335", "3.3"],
+      "answer": 2,
+      "subtopic": "Operators",
+      "link": "https://www.w3schools.com/python/python_operators.asp"
+    },
+    {
+      "id": 8,
+      "question": "Which operator is used for integer division in Python?",
+      "options": ["%", "/", "//", "*"],
+      "answer": 2,
+      "subtopic": "Operators",
+      "link": "https://www.w3schools.com/python/python_operators.asp"
+    },
+    {
+      "id": 9,
+      "question": "What is the purpose of the `pass` statement in Python?",
+      "options": ["To raise an exception", "To skip the current iteration of a loop", "To define an empty code block", "To exit a loop"],
+      "answer": 2,
+      "subtopic": "Control Flow",
+      "link": "https://www.w3schools.com/python/ref_keyword_pass.asp"
+    },
+    {
+      "id": 10,
+      "question": "Which keyword is used to start a loop in Python?",
+      "options": ["do", "loop", "while", "for"],
+      "answer": 3,
+      "subtopic": "Loops",
+      "link": "https://www.w3schools.com/python/python_for_loops.asp"
+    },
+    {
+      "id": 11,
+      "question": "How do you create a list in Python?",
+      "options": ["myList = ()", "myList = array()", "myList = []", "myList = {}"],
+      "answer": 2,
+      "subtopic": "Lists",
+      "link": "https://www.w3schools.com/python/python_lists.asp"
+    },
+    {
+      "id": 12,
+      "question": "What is the output of `print(len([1, 2, 3]))`?",
+      "options": ["3", "1", "2", "4"],
+      "answer": 0,
+      "subtopic": "Lists",
+      "link": "https://www.w3schools.com/python/python_lists.asp"
+    },
+    {
+      "id": 13,
+      "question": "How do you access the first element of a list named `my_list`?",
+      "options": ["my_list.first()", "my_list(0)", "my_list[0]", "my_list[1]"],
+      "answer": 2,
+      "subtopic": "Lists",
+      "link": "https://www.w3schools.com/python/python_lists_access_items.asp"
+    },
+    {
+      "id": 14,
+      "question": "What method is used to add an element to a list?",
+      "options": ["insert()", "push()", "add()", "append()"],
+      "answer": 3,
+      "subtopic": "Lists",
+      "link": "https://www.w3schools.com/python/python_lists_add.asp"
+    },
+    {
+      "id": 15,
+      "question": "What is a tuple in Python?",
+      "options": ["An ordered, mutable sequence", "An unordered, mutable sequence", "An unordered, immutable sequence", "An ordered, immutable sequence"],
+      "answer": 3,
+      "subtopic": "Tuples",
+      "link": "https://www.w3schools.com/python/python_tuples.asp"
+    },
+    {
+      "id": 16,
+      "question": "What keyword is used to create a dictionary in Python?",
+      "options": ["()", "[]", "dict()", "dictionary()"],
+      "answer": 2,
+      "subtopic": "Dictionaries",
+      "link": "https://www.w3schools.com/python/python_dictionaries.asp"
+    },
+    {
+      "id": 17,
+      "question": "What does the `range(5)` function generate?",
+      "options": ["[0, 1, 2, 3, 4, 5]", "[0, 1, 2, 3, 4]", "[1, 2, 3, 4, 5]", "[1, 2, 3, 4]"],
+      "answer": 1,
+      "subtopic": "Functions",
+      "link": "https://www.w3schools.com/python/ref_func_range.asp"
+    },
+    {
+      "id": 18,
+      "question": "How do you import the `math` module?",
+      "options": ["import math", "include math", "require math", "using math"],
+      "answer": 0,
+      "subtopic": "Modules",
+      "link": "https://www.w3schools.com/python/module_math.asp"
+    },
+    {
+      "id": 19,
+      "question": "What is the purpose of the `if __name__ == '__main__':` block?",
+      "options": ["To ensure code runs only when the script is executed directly", "To define the main function", "To import modules", "To handle exceptions"],
+      "answer": 0,
+      "subtopic": "Modules",
+      "link": "https://www.w3schools.com/python/python_modules.asp"
+    },
+    {
+      "id": 20,
+      "question": "How do you comment a single line in Python?",
+      "options": ["// This is a comment", "/* This is a comment */", "# This is a comment", "-- This is a comment"],
+      "answer": 2,
+      "subtopic": "Comments",
+      "link": "https://www.w3schools.com/python/python_comments.asp"
+    },
+    {
+      "id": 21,
+      "question": "What is the purpose of the `try...except` block in Python?",
+      "options": ["To define a function", "To handle exceptions", "To create a loop", "To declare a variable"],
+      "answer": 1,
+      "subtopic": "Exception Handling",
+      "link": "https://www.geeksforgeeks.org/python-try-except/"
+  },
+  {
+      "id": 22,
+      "question": "Which keyword is used to raise an exception in Python?",
+      "options": ["catch", "except", "raise", "throw"],
+      "answer": 2,
+      "subtopic": "Exception Handling",
+      "link": "https://www.geeksforgeeks.org/python-raise-exception/"
+  },
+  {
+      "id": 23,
+      "question": "Which of the following is a correct way to open a file for reading in Python?",
+      "options": ["file = open('my_file.txt', 'w')", "file = open('my_file.txt', 'r')", "file = open('my_file.txt', 'a')", "file = open('my_file.txt')"],
+      "answer": 1,
+      "subtopic": "File I/O",
+      "link": "https://www.geeksforgeeks.org/reading-writing-text-files-python/"
+  },
+  {
+      "id": 24,
+      "question": "What method is used to read all lines from a file into a list?",
+      "options": ["read()", "readline()", "readlines()", "readall()"],
+      "answer": 2,
+      "subtopic": "File I/O",
+      "link": "https://www.geeksforgeeks.org/how-to-read-a-file-line-by-line-in-python/"
+  },
+  {
+      "id": 25,
+      "question": "Which of the following is NOT a built-in function in Python?",
+      "options": ["print()", "len()", "sqrt()", "type()"],
+      "answer": 2,
+      "subtopic": "Built-in Functions",
+      "link": "https://www.geeksforgeeks.org/python-built-in-functions/"
+  },
+  {
+      "id": 26,
+      "question": "What is the purpose of the `map()` function?",
+      "options": ["To filter elements from a list", "To apply a function to each item in an iterable", "To sort a list", "To reduce a list to a single value"],
+      "answer": 2,
+      "subtopic": "Built-in Functions",
+      "link": "https://www.geeksforgeeks.org/python-map-function/"
+  },
+  {
+      "id": 27,
+      "question": "What does the `//` operator do in Python?",
+      "options": ["Normal Division", "Exponentiation", "Floor Division", "Modulo"],
+      "answer": 2,
+      "subtopic": "Operators",
+      "link": "https://www.geeksforgeeks.org/basic-operators-python/"
+  },
+    {
+      "id": 28,
+      "question": "Which of the following is the correct way to create a class in Python?",
+      "options": ["class MyClass:", "className MyClass:", "Class: MyClass", "object MyClass:"],
+      "answer": 0,
+      "subtopic": "Object-Oriented Programming",
+      "link": "https://www.geeksforgeeks.org/python-classes-and-objects/"
+  },
+  {
+      "id": 29,
+      "question": "What is the purpose of the `__init__` method in a Python class?",
+      "options": ["To define a static variable", "To initialize the object's attributes", "To destroy the object", "To call the parent class's constructor"],
+      "answer": 1,
+      "subtopic": "Object-Oriented Programming",
+      "link": "https://www.geeksforgeeks.org/init-method-in-python/"
+  },
+  {
+      "id": 30,
+      "question": "Which keyword is used to inherit from another class in Python?",
+      "options": ["inherits", "extends", "inherit", "class"],
+      "answer": 3,
+      "subtopic": "Inheritance",
+      "link": "https://www.geeksforgeeks.org/inheritance-in-python/"
+  }
+  ],
+  "java": [
+    {
+      "id": 20,
+      "question": "What is the main method signature in Java?",
+      "options": ["public static void main(String[] args)", "public void main(String args)", "public static void Main(String[] args)", "static void main(String[] args)"],
+      "answer": 0,
+      "subtopic": "Main Method",
+      "link": "https://www.w3schools.com/java/java_methods.asp"
+    },
+   
+    {
+      "id": 3,
+      "question": "Which data type is used to store whole numbers in Java?",
+      "options": ["int", "String", "boolean", "float"],
+      "answer": 0,
+      "subtopic": "Data Types",
+      "link": "https://www.w3schools.com/java/java_data_types.asp"
+    },
+    {
+      "id": 4,
+      "question": "What is the data type of the result of a comparison operation (e.g., `x > y`)?",
+      "options": ["boolean", "int", "float", "String"],
+      "answer": 0,
+      "subtopic": "Data Types",
+      "link": "https://www.w3schools.com/java/java_data_types.asp"
+    },
+    {
+      "id": 14,
+      "question": "Which keyword is used to prevent a method from being overridden?",
+      "options": ["abstract", "static", "final", "private"],
+      "answer": 2,
+      "subtopic": "Final",
+      "link": "https://www.w3schools.com/java/ref_keyword_final.asp"
+    },
+    {
+      "id": 15,
+      "question": "Which keyword is used to create a constant variable?",
+      "options": ["const", "static", "readonly", "final"],
+      "answer": 3,
+      "subtopic": "Final",
+      "link": "https://www.w3schools.com/java/ref_keyword_final.asp"
+    },
+    {
+      "id": 16,
+      "question": "What is the purpose of the `this` keyword?",
+      "options": ["To create a new object", "To refer to the current object", "To access static members", "To refer to the superclass"],
+      "answer": 1,
+      "subtopic": "this",
+      "link": "https://www.w3schools.com/java/ref_keyword_this.asp"
+    },
+    {
+      "id": 17,
+      "question": "What does the `static` keyword mean?",
+      "options": ["Belongs to a specific instance of the class", "Used to create constants", "Belongs to the class itself, not to any specific instance", "Used to define abstract methods"],
+      "answer": 2,
+      "subtopic": "static",
+      "link": "https://www.w3schools.com/java/ref_keyword_static.asp"
+    },
+    {
+      "id": 5,
+      "question": "What is the access modifier that makes a member accessible only within the same class?",
+      "options": ["protected", "public", "private", "default"],
+      "answer": 2,
+      "subtopic": "Access Modifiers",
+      "link": "https://www.w3schools.com/java/java_modifiers.asp"
+    },
+    {
+      "id": 6,
+      "question": "How do you print to the console in Java?",
+      "options": ["console.log()", "print()", "System.out.println()", "printf()"],
+      "answer": 2,
+      "subtopic": "Input/Output to the console",
+      "link": "https://www.w3schools.com/java/java_output.asp"
+    },
+    {
+      "id": 11,
+      "question": "Which loop is used to iterate a specific number of times?",
+      "options": ["repeat-until", "while", "for", "do-while"],
+      "answer": 2,
+      "subtopic": "Loops",
+      "link": "https://www.w3schools.com/java/java_for_loop.asp"
+    },
+    {
+      "id": 1,
+      "question": "Which keyword is used to declare a class in Java?",
+      "options": ["class", "def", "struct", "object"],
+      "answer": 0,
+      "subtopic": "Classes and Objects",
+      "link": "https://www.w3schools.com/java/java_classes.asp"
+    },
+    {
+      "id": 2,
+      "question": "Which keyword is used to create an instance of a class?",
+      "options": ["create", "instance", "new", "object"],
+      "answer": 2,
+      "subtopic": "Object Creation",
+      "link": "https://www.w3schools.com/java/java_classes.asp"
+    },
+    {
+      "id": 7,
+      "question": "What is the keyword used for inheritance in Java?",
+      "options": ["derives", "inherits", "extends", "implements"],
+      "answer": 2,
+      "subtopic": "Inheritance",
+      "link": "https://www.w3schools.com/java/java_inheritance.asp"
+    },
+    {
+      "id": 8,
+      "question": "What is the superclass of all classes in Java?",
+      "options": ["Super", "Object", "Class", "Parent"],
+      "answer": 1,
+      "subtopic": "Inheritance",
+      "link": "https://www.google.com/search?q=What+is+the+superclass+of+all+classes+in+Java%3F&oq=What+is+the+superclass+of+all+classes+in+Java%3F&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQABgeMggIAhAAGAgYHtIBCTExMTY0ajBqN6gCCLACAfEFDsrH8evl0Nw&sourceid=chrome&ie=UTF-8"
+    },
+    {
+      "id": 9,
+      "question": "What is encapsulation in Java?",
+      "options": ["Overriding a method", "Implementing an interface", "Inheriting from a superclass", "Bundling data and methods that operate on that data within a class"],
+      "answer": 3,
+      "subtopic": "OOP Concepts (Encapsulation)",
+      "link": "https://www.w3schools.com/java/java_encapsulation.asp"
+    },
+    {
+      "id": 10,
+      "question": "What is polymorphism in Java?",
+      "options": ["The ability of an object to take on many forms", "The practice of data hiding", "The process of creating new objects", "The concept of inheritance"],
+      "answer": 0,
+      "subtopic": "OOP Concepts (Polymorphism)",
+      "link": "https://www.w3schools.com/java/java_polymorphism.asp"
+    },
+
+    {
+      "id": 12,
+      "question": "What is an ArrayList in Java?",
+      "options": ["A hash table", "A resizable array", "A linked list", "A fixed-size array"],
+      "answer": 1,
+      "subtopic": "Data Structures (ArrayList)",
+      "link": "https://www.w3schools.com/java/java_arraylist.asp"
+    },
+    {
+      "id": 13,
+      "question": "Which keyword is used to handle exceptions?",
+      "options": ["try-except", "try-catch", "handle", "throw-catch"],
+      "answer": 1,
+      "subtopic": "Exception Handling",
+      "link": "https://www.w3schools.com/java/java_try_catch.asp"
+    },
+  
+    {
+      "id": 18,
+      "question": "What is a constructor in Java?",
+      "options": ["A method that is called when an object is destroyed", "A static method", "A method that returns a new object", "A special method used to initialize objects"],
+      "answer": 3,
+      "subtopic": "Constructors",
+      "link": "https://www.w3schools.com/java/java_constructors.asp"
+    },
+    {
+      "id": 19,
+      "question": "What is an interface in Java?",
+      "options": ["A class with only abstract methods", "A blueprint for classes", "An abstract class", "A contract that classes can implement"],
+      "answer": 3,
+      "subtopic": "Interfaces",
+      "link": "https://www.w3schools.com/java/java_interfaces.asp"
+    }
+  ],
+  "c": [
+    {
+      "id": 16,
+      "question": "What is the purpose of the `#include` directive?",
+      "options": ["To declare functions", "To define macros", "To include header files", "To link libraries"],
+      "answer": 2,
+      "subtopic": "Preprocessor Directives",
+      "link": "https://www.w3schools.com/c/c_preprocessor.php"
+    },
+    {
+      "id": 17,
+      "question": "Which preprocessor directive is used to define a macro?",
+      "options": ["#include", "#define", "#ifdef", "#ifndef"],
+      "answer": 1,
+      "subtopic": "Preprocessor Directives",
+      "link": "https://www.geeksforgeeks.org/cpp-preprocessor-directives-set-2/?ref=header_ind"
+    },
+    {
+      "id": 1,
+      "question": "What is the correct file extension for a C source file?",
+      "options": [".cpp", ".c", ".java", ".py"],
+      "answer": 1,
+      "subtopic": "Basics",
+      "link": "https://www.w3schools.com/c/c_intro.php"
+    },
+    {
+      "id": 2,
+      "question": "What is the entry point of execution in a C program?",
+      "options": ["start", "init", "_main", "main"],
+      "answer": 3,
+      "subtopic": "C Structure",
+      "link": "https://www.w3schools.com/c/c_structs.php"
+    },
+    {
+      "id": 3,
+      "question": "What is the most common data type used to store integers?",
+      "options": ["int", "char", "float", "double"],
+      "answer": 0,
+      "subtopic": "Data Types",
+      "link": "https://www.w3schools.com/c/c_data_types.php"
+    },
+    {
+      "id": 4,
+      "question": "What is the size of a `char` data type in C?",
+      "options": ["8 bytes", "2 bytes", "4 bytes", "1 byte"],
+      "answer": 3,
+      "subtopic": "Data Types",
+      "link": "https://www.w3schools.com/c/c_data_types.php"
+    },
+    {
+      "id": 5,
+      "question": "What does `sizeof` operator return?",
+      "options": ["The value of a variable", "The size of a data type or variable in bytes", "The number of elements in an array", "The address of a variable"],
+      "answer": 1,
+      "subtopic": "Operators",
+      "link": "https://www.w3schools.com/c/c_operators.php"
+    },
+    {
+      "id": 6,
+      "question": "Which keyword is used to declare a pointer?",
+      "options": ["&", "*", "->", "pointer"],
+      "answer": 1,
+      "subtopic": "Pointers",
+      "link": "https://www.w3schools.com/c/c_pointers.php"
+    },
+    {
+      "id": 7,
+      "question": "Which loop is used for a fixed number of iterations?",
+      "options": ["repeat-until", "do-while", "for", "while"],
+      "answer": 2,
+      "subtopic": "Loops",
+      "link": "https://www.w3schools.com/c/c_for_loop.php"
+    },
+    {
+      "id": 8,
+      "question": "Which function is used to print output to the console?",
+      "options": ["System.out.println", "cout", "printf", "print"],
+      "answer": 2,
+      "subtopic": "Input/Output",
+      "link": "https://www.w3schools.com/c/c_output.php"
+    },
+    {
+      "id": 9,
+      "question": "What is an array in C?",
+      "options": ["A data structure that stores key-value pairs", "A contiguous block of memory that stores elements of the same data type", "A linked list", "A file format"],
+      "answer": 1,
+      "subtopic": "Arrays",
+      "link": "https://www.w3schools.com/c/c_arrays.php"
+    },
+    {
+      "id": 10,
+      "question": "What is a structure in C?",
+      "options": ["A pointer to a function", "A user-defined data type that can group variables of different data types under a single name", "A built-in data type", "A dynamic memory allocation technique"],
+      "answer": 1,
+      "subtopic": "Structures",
+      "link": "https://www.w3schools.com/c/c_structs.php"
+    },
+    {
+      "id": 11,
+      "question": "What is a function pointer in C?",
+      "options": ["A pointer that stores the address of a function", "A pointer to a structure", "A pointer to an array", "A function that returns a pointer"],
+      "answer": 0,
+      "subtopic": "Function Pointers",
+      "link": "https://www.w3schools.com/c/c_function_pointers.php"
+    },
+    {
+      "id": 12,
+      "question": "Which keyword is used to pass an array to a function?",
+      "options": ["Both, depending on context", "By reference (automatically)", "Neither", "By value (you have to explicitly copy it)"],
+      "answer": 1,
+      "subtopic": "Functions parameters",
+      "link": "https://www.w3schools.com/c/c_functions_parameters.php"
+    },
+    {
+      "id": 13,
+      "question": "What is recursion in C?",
+      "options": ["A function calling itself", "A function calling another function", "A loop that runs indefinitely", "A preprocessor directive"],
+      "answer": 0,
+      "subtopic": "Recursion",
+      "link": "https://www.w3schools.com/c/c_recursion.php"
+    },
+    {
+      "id": 14,
+      "question": "Which function is used to allocate memory dynamically?",
+      "options": ["calloc", "All of the above", "malloc", "realloc"],
+      "answer": 1,
+      "subtopic": "Memory Management",
+      "link": "https://www.w3schools.com/c/c_memory_management.php"
+    },
+    {
+      "id": 15,
+      "question": "Which function is used to free dynamically allocated memory?",
+      "options": ["free", "delete", "dealloc", "release"],
+      "answer": 0,
+      "subtopic": "Memory Management",
+      "link": "https://www.w3schools.com/c/c_memory_management.php"
+    },
+    
+    {
+      "id": 18,
+      "question": "What does the `const` keyword mean?",
+      "options": ["Defines a constant expression", "Declares a constant pointer", "All of the above", "Indicates that a variable's value cannot be changed after initialization"],
+      "answer": 3,
+      "subtopic": "Keywords (const)",
+      "link": "https://www.geeksforgeeks.org/tokens-in-c/?ref=header_ind#keywords"
+    },
+    {
+      "id": 19,
+      "question": "What is the purpose of the `typedef` keyword?",
+      "options": ["To declare variables", "To create aliases for existing data types", "To cast data types", "To define new data types"],
+      "answer": 1,
+      "subtopic": "Keywords (typedef)",
+      "link": "https://www.geeksforgeeks.org/typedef-in-c/?ref=header_ind"
+    },
+    {
+      "id": 20,
+      "question": "How do you comment a single line in C?",
+      "options": ["# This is a comment", "/* This is a comment */", "// This is a comment", "<-- This is a comment -->"],
+      "answer": 2,
+      "subtopic": "Comments",
+      "link": "https://www.w3schools.com/c/c_comments.php"
+    }
+  ],
+  "javascript": [
+    {
+      "id": 1,
+      "question": "What does JavaScript primarily run in?",
+      "options": ["Servers", "Databases", "Web Browsers", "Operating Systems"],
+      "answer": 2,
+      "subtopic": "Environment",
+      "link": "https://www.geeksforgeeks.org/how-to-check-the-current-runtime-environment-is-a-browser-in-javascript/?ref=header_ind"
+    },
+    {
+      "id": 2,
+      "question": "Which keyword is used to declare a variable in JavaScript?",
+      "options": ["const", "let", "All of the above", "var"],
+      "answer": 2,
+      "subtopic": "Variables",
+      "link": "https://www.w3schools.com/js/js_variables.asp"
+    },
+    {
+      "id": 3,
+      "question": "What data type is used to store true/false values?",
+      "options": ["boolean", "truthy/falsy", "bool", "binary"],
+      "answer": 0,
+      "subtopic": "Data Types",
+      "link": "https://www.w3schools.com/js/js_datatypes.asp"
+    },
+    {
+      "id": 4,
+      "question": "What is the result of `typeof 'hello'`?",
+      "options": ["str", "text", "character", "string"],
+      "answer": 3,
+      "subtopic": "Data Types",
+      "link": "https://www.w3schools.com/js/js_datatypes.asp"
+    },
+    {
+      "id": 5,
+      "question": "What does `NaN` stand for?",
+      "options": ["Not a Number", "Negative Number", "Null and None", "No Assignment Necessary"],
+      "answer": 0,
+      "subtopic": "Data Types",
+      "link": "https://www.w3schools.com/js/js_datatypes.asp"
+    },
+    {
+      "id": 6,
+      "question": "What is the output of `console.log(typeof null)`?",
+      "options": ["null", "undefined", "NaN", "object"],
+      "answer": 3,
+      "subtopic": "Data Types",
+      "link": "https://www.w3schools.com/js/js_datatypes.asp"
+    },
+    {
+      "id": 7,
+      "question": "What does `'10' + 1` evaluate to?",
+      "options": ["'11'", "'101'", "101", "11"],
+      "answer": 1,
+      "subtopic": "Operators",
+      "link": "https://www.w3schools.com/js/js_operators.asp"
+    },
+    {
+      "id": 8,
+      "question": "Which operator is used for strict equality comparison?",
+      "options": ["=", "equals()", "==", "==="],
+      "answer": 3,
+      "subtopic": "Operators",
+      "link": "https://www.w3schools.com/js/js_operators.asp"
+    },
+    {
+      "id": 9,
+      "question": "What is the keyword used to define a function in JavaScript?",
+      "options": ["def", "method", "function", "func"],
+      "answer": 2,
+      "subtopic": "Functions",
+      "link": "https://www.w3schools.com/js/js_functions.asp"
+    },
+    {
+      "id": 10,
+      "question": "What is a callback function?",
+      "options": ["A function passed as an argument to another function", "A built-in JavaScript function", "A function that calls itself", "A function that returns another function"],
+      "answer": 0,
+      "subtopic": "Functions",
+      "link": "https://www.w3schools.com/js/js_callback.asp"
+    },
+    {
+      "id": 11,
+      "question": "What is the purpose of the `this` keyword?",
+      "options": ["Refers to the current object", "Refers to a newly created object", "Refers to the global object", "Refers to the parent object"],
+      "answer": 0,
+      "subtopic": "Keywords (this)",
+      "link": "https://www.w3schools.com/js/js_this.asp"
+    },
+    {
+      "id": 12,
+      "question": "Which loop is best for iterating over the properties of an object?",
+      "options": ["for...in", "for", "while", "do...while"],
+      "answer": 0,
+      "subtopic": "Loops",
+      "link": "https://www.w3schools.com/js/js_loop_forin.asp"
+    },
+    {
+      "id": 13,
+      "question": "Which keyword is used to exit a loop prematurely?",
+      "options": ["return", "continue", "exit", "break"],
+      "answer": 3,
+      "subtopic": "Loops",
+      "link": "https://www.w3schools.com/js/js_break.asp"
+    },
+    {
+      "id": 14,
+      "question": "Which built-in method adds an element to the end of an array?",
+      "options": ["insert()", "push()", "append()", "concat()"],
+      "answer": 1,
+      "subtopic": "Arrays",
+      "link": "https://www.w3schools.com/js/js_array_methods.asp"
+    },
+    {
+      "id": 15,
+      "question": "Which method removes the last element from an array and returns it?",
+      "options": ["remove()", "shift()", "pop()", "delete()"],
+      "answer": 2,
+      "subtopic": "Arrays",
+      "link": "https://www.w3schools.com/js/js_array_methods.asp"
+    },
+    {
+      "id": 16,
+      "question": "What does DOM stand for in JavaScript?",
+      "options": ["Data Object Model", "Document Order Model", "Document Object Model", "Digital Order Management"],
+      "answer": 2,
+      "subtopic": "DOM",
+      "link": "https://www.w3schools.com/js/js_htmldom.asp"
+    },
+    {
+      "id": 17,
+      "question": "What is the purpose of `JSON.parse()`?",
+      "options": ["Converts a JSON string into a JavaScript object", "Converts a JavaScript object into a JSON string", "Validates a JSON string", "Formats a JSON string"],
+      "answer": 0,
+      "subtopic": "JSON",
+      "link": "https://www.w3schools.com/js/js_json_parse.asp"
+    },
+    {
+      "id": 18,
+      "question": "What does AJAX stand for?",
+      "options": ["Automatic JavaScript and XML", "Advanced JavaScript and XML", "Asynchronous JavaScript and XML", "Asymmetrical JavaScript and XML"],
+      "answer": 2,
+      "subtopic": "AJAX",
+      "link": "https://www.w3schools.com/js/js_ajax_intro.asp"
+    },
+    {
+      "id": 19,
+      "question": "What is a closure in JavaScript?",
+      "options": ["A built-in JavaScript function", "A function that accepts another function as an argument", "A function that has access to variables from its surrounding scope, even after the outer function has returned", "A self-executing function"],
+      "answer": 2,
+      "subtopic": "Closures",
+      "link": "https://www.w3schools.com/js/js_function_closures.asp"
+    },
+    {
+      "id": 20,
+      "question": "How do you write a comment in JavaScript?",
+      "options": ["# This is a comment", "<!-- This is a comment -->", "/* This is a comment */", "// This is a comment"],
+      "answer": 3,
+      "subtopic": "Comments",
+      "link": "https://www.w3schools.com/js/js_comments.asp"
+    }
+  ],
+  "sql": [
+    {
+      "id": 1,
+      "question": "What does SQL stand for?",
+      "options": ["Standard Query Language", "Simple Query Language", "Statistical Query Language", "Structured Query Language"],
+      "answer": 3,
+      "subtopic": "Basic Concepts",
+      "link": "https://www.w3schools.com/sql/sql_intro.asp"
+    },
+    {
+      "id": 2,
+      "question": "What does DDL stand for in SQL?",
+      "options": ["Database Design Language", "Data Description Language", "Data Definition Language", "Data Derivation Language"],
+      "answer": 2,
+      "subtopic": "Basic Concepts",
+      "link": "https://www.w3schools.com/sql/sql_ddl.asp"
+    },
+    {
+      "id": 3,
+      "question": "Which SQL statement is used to retrieve data from a database?",
+      "options": ["GET", "RETRIEVE", "EXTRACT", "SELECT"],
+      "answer": 3,
+      "subtopic": "SELECT Statements",
+      "link": "https://www.w3schools.com/sql/sql_select.asp"
+    },
+    {
+      "id": 4,
+      "question": "Which keyword is used to select all columns?",
+      "options": ["EVERYTHING", "*", "SELECT ALL", "ALL"],
+      "answer": 1,
+      "subtopic": "SELECT Statements",
+      "link": "https://www.w3schools.com/sql/sql_select.asp"
+    },
+    {
+      "id": 5,
+      "question": "Which clause is used to filter records in a SELECT statement?",
+      "options": ["WHERE", "HAVING", "CONDITION", "FILTER"],
+      "answer": 0,
+      "subtopic": "WHERE Clause",
+      "link": "https://www.w3schools.com/sql/sql_where.asp"
+    },
+    {
+      "id": 6,
+      "question": "Which keyword is used to sort the result set?",
+      "options": ["ARRANGE", "ORDER BY", "SORT", "SORT BY"],
+      "answer": 1,
+      "subtopic": "ORDER BY Clause",
+      "link": "https://www.w3schools.com/sql/sql_orderby.asp"
+    },
+    {
+      "id": 7,
+      "question": "Which keyword is used to group rows with the same values in specified columns into summary rows, like \"sum\", \"average\", or \"count\"?",
+      "options": ["COMBINE", "COLLECT", "AGGREGATE", "GROUP BY"],
+      "answer": 3,
+      "subtopic": "GROUP BY Clause",
+      "link": "https://www.w3schools.com/sql/sql_groupby.asp"
+    },
+    {
+      "id": 8,
+      "question": "Which clause is used to filter the results of a GROUP BY query?",
+      "options": ["WHERE", "FILTER", "CONDITION", "HAVING"],
+      "answer": 3,
+      "subtopic": "HAVING Clause",
+      "link": "https://www.w3schools.com/sql/sql_having.asp"
+    },
+    {
+      "id": 9,
+      "question": "Which SQL statement is used to update data in a database?",
+      "options": ["MODIFY", "ALTER", "UPDATE", "CHANGE"],
+      "answer": 2,
+      "subtopic": "UPDATE Statements",
+      "link": "https://www.w3schools.com/sql/sql_update.asp"
+    },
+    {
+      "id": 10,
+      "question": "Which SQL statement is used to delete data from a database?",
+      "options": ["TRUNCATE", "DELETE", "REMOVE", "DROP"],
+      "answer": 1,
+      "subtopic": "DELETE Statements",
+      "link": "https://www.w3schools.com/sql/sql_delete.asp"
+    },
+    {
+      "id": 11,
+      "question": "Which SQL statement is used to insert new data in a database?",
+      "options": ["ADD", "CREATE", "APPEND", "INSERT"],
+      "answer": 3,
+      "subtopic": "INSERT Statements",
+      "link": "https://www.w3schools.com/sql/sql_insert.asp"
+    },
+    {
+      "id": 12,
+      "question": "Which SQL statement is used to create a table?",
+      "options": ["CREATE TABLE", "MAKE TABLE", "DEFINE TABLE", "NEW TABLE"],
+      "answer": 0,
+      "subtopic": "CREATE TABLE Statement",
+      "link": "https://www.w3schools.com/sql/sql_create_table.asp"
+    },
+    {
+      "id": 13,
+      "question": "What is a primary key?",
+      "options": ["A column that stores the primary data", "A foreign key", "A column or set of columns that uniquely identifies each row in a table", "A key that opens the database"],
+      "answer": 2,
+      "subtopic": "Keys",
+      "link": "https://www.w3schools.com/sql/sql_primarykey.asp"
+    },
+    {
+      "id": 14,
+      "question": "What is a foreign key?",
+      "options": ["A column or set of columns that refers to the primary key of another table", "A column that stores foreign data", "A primary key", "A key that is foreign to the database"],
+      "answer": 0,
+      "subtopic": "Keys",
+      "link": "https://www.w3schools.com/sql/sql_foreignkey.asp"
+    },
+    {
+      "id": 15,
+      "question": "Which keyword is used to join two tables based on a common column?",
+      "options": ["COMBINE", "MERGE", "CONNECT", "JOIN"],
+      "answer": 3,
+      "subtopic": "JOIN Clause",
+      "link": "https://www.w3schools.com/sql/sql_join.asp"
+    },
+    {
+      "id": 16,
+      "question": "Which operator is used to compare two values for equality?",
+      "options": ["IS EQUAL", "EQ", "=", "=="],
+      "answer": 2,
+      "subtopic": "Operators",
+      "link": "https://www.w3schools.com/sql/sql_operators.asp"
+    },
+    {
+      "id": 17,
+      "question": "Which function is used to calculate the average value of a column?",
+      "options": ["AVERAGE", "CALCULATE AVG", "AVG", "MEAN"],
+      "answer": 2,
+      "subtopic": "Aggregate Functions",
+      "link": "https://www.w3schools.com/sql/sql_count_avg_sum.asp"
+    },
+    {
+      "id": 18,
+      "question": "Which function is used to count the number of rows?",
+      "options": ["COUNT", "SUM", "NUMBER", "CALCULATE COUNT"],
+      "answer": 0,
+      "subtopic": "Aggregate Functions",
+      "link": "https://www.w3schools.com/sql/sql_count_avg_sum.asp"
+    },
+    {
+      "id": 19,
+      "question": "Which function is used to find the largest value in a column?",
+      "options": ["MAXIMUM", "LARGEST", "MAX", "BIGGEST"],
+      "answer": 2,
+      "subtopic": "Aggregate Functions",
+      "link": "https://www.w3schools.com/sql/sql_min_max.asp"
+    },
+    {
+      "id": 20,
+      "question": "What does SQL injection refer to?",
+      "options": ["A method to inject SQL code into a database", "A code injection technique used to attack data-driven applications", "A security feature of SQL", "A way to clean data in a database"],
+      "answer": 1,
+      "subtopic": "SQL Injection",
+      "link": "https://www.w3schools.com/sql/sql_injection.asp"
+    }
+  ]
+}

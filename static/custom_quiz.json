@@ -1,0 +1,1058 @@
+{
+    "custom_react": [
+        {
+            "id": 1,
+            "question": "What is the primary purpose of React?",
+            "options": [
+                "To create a new programming language",
+                "To simplify the process of building user interfaces",
+                "To improve the performance of backend applications",
+                "To replace HTML and CSS"
+            ],
+            "answer": 1,
+            "subtopic": "Introduction to React",
+            "link": "https://reactjs.org/"
+        },
+        {
+            "id": 2,
+            "question": "Which of the following is a popular tool for setting up a React development environment?",
+            "options": [
+                "Webpack",
+                "Node.js",
+                "Create React App",
+                "All of the above"
+            ],
+            "answer": 3,
+            "subtopic": "Setting Up a React Development Environment",
+            "link": "https://create-react-app.dev/"
+        },
+        {
+            "id": 3,
+            "question": "What is JSX?",
+            "options": [
+                "A syntax extension for JavaScript",
+                "A programming language",
+                "A framework for building web applications",
+                "A library for handling events"
+            ],
+            "answer": 0,
+            "subtopic": "JSX and Components",
+            "link": "https://reactjs.org/docs/jsx-in-depth.html"
+        },
+        {
+            "id": 4,
+            "question": "What is the main difference between state and props in React?",
+            "options": [
+                "State is mutable, while props are immutable",
+                "State is immutable, while props are mutable",
+                "State is used for local data, while props are used for global data",
+                "State is used for global data, while props are used for local data"
+            ],
+            "answer": 0,
+            "subtopic": "State and Props",
+            "link": "https://reactjs.org/docs/state-and-lifecycle.html"
+        },
+        {
+            "id": 5,
+            "question": "What is a hook in React?",
+            "options": [
+                "A function that returns a value",
+                "A function that handles an event",
+                "A function that can be used to manage state and side effects",
+                "A function that can only be used with classes"
+            ],
+            "answer": 2,
+            "subtopic": "Event Handling and Hooks",
+            "link": "https://reactjs.org/docs/hooks-intro.html"
+        },
+        {
+            "id": 6,
+            "question": "What is the purpose of React Router?",
+            "options": [
+                "To handle events",
+                "To manage state",
+                "To enable client-side routing",
+                "To optimize performance"
+            ],
+            "answer": 2,
+            "subtopic": "React Router and Navigation",
+            "link": "https://reactrouter.com/"
+        },
+        {
+            "id": 7,
+            "question": "What is Redux?",
+            "options": [
+                "A state management library for React",
+                "A routing library for React",
+                "A framework for building web applications",
+                "A syntax extension for JavaScript"
+            ],
+            "answer": 0,
+            "subtopic": "State Management with Redux",
+            "link": "https://redux.js.org/"
+        },
+        {
+            "id": 8,
+            "question": "What is the React Context API?",
+            "options": [
+                "A state management library for React",
+                "A way to share data between components without passing props down manually",
+                "A routing library for React",
+                "A syntax extension for JavaScript"
+            ],
+            "answer": 1,
+            "subtopic": "React Context API and Optimization",
+            "link": "https://reactjs.org/docs/context.html"
+        },
+        {
+            "id": 9,
+            "question": "How do you handle errors in React?",
+            "options": [
+                "By using try-catch blocks",
+                "By using error boundaries",
+                "By using console.log",
+                "By ignoring them"
+            ],
+            "answer": 1,
+            "subtopic": "Error Handling and Debugging",
+            "link": "https://reactjs.org/docs/error-boundaries.html"
+        },
+        {
+            "id": 10,
+            "question": "What is a best practice for optimizing the performance of a React application?",
+            "options": [
+                "To use as many libraries as possible",
+                "To minimize the number of re-renders",
+                "To use a lot of nested loops",
+                "To ignore the concept of state"
+            ],
+            "answer": 1,
+            "subtopic": "Advanced React Concepts and Best Practices",
+            "link": "https://reactjs.org/docs/optimizing-performance.html"
+        }
+    ],
+    "custom_c#": [
+        {
+            "id": 1,
+            "question": "What is the basic syntax for declaring a variable in C#?",
+            "options": [
+                "var variableName = value;",
+                "let variableName = value;",
+                "int variableName = value;",
+                "declare variableName = value;"
+            ],
+            "answer": 0,
+            "subtopic": "Introduction to C# Basics",
+            "link": "https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/basics/syntax"
+        },
+        {
+            "id": 2,
+            "question": "Which of the following is a fundamental principle of Object-Oriented Programming in C#?",
+            "options": [
+                "Inheritance",
+                "Polymorphism",
+                "Encapsulation",
+                "All of the above"
+            ],
+            "answer": 3,
+            "subtopic": "Object-Oriented Programming in C#",
+            "link": "https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/object-oriented-programming"
+        },
+        {
+            "id": 3,
+            "question": "What is the purpose of the 'using' directive in C#?",
+            "options": [
+                "To import namespaces",
+                "To declare variables",
+                "To define classes",
+                "To implement interfaces"
+            ],
+            "answer": 0,
+            "subtopic": "Introduction to C# Basics",
+            "link": "https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/namespaces/using-directives"
+        },
+        {
+            "id": 4,
+            "question": "How do you implement inheritance in C#?",
+            "options": [
+                "Using the 'implements' keyword",
+                "Using the 'extends' keyword",
+                "Using the ':' keyword",
+                "Using the 'inherits' keyword"
+            ],
+            "answer": 2,
+            "subtopic": "Object-Oriented Programming in C#",
+            "link": "https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/inheritance"
+        },
+        {
+            "id": 5,
+            "question": "What is the difference between 'struct' and 'class' in C#?",
+            "options": [
+                "A struct is a reference type, while a class is a value type",
+                "A struct is a value type, while a class is a reference type",
+                "A struct is used for inheritance, while a class is used for polymorphism",
+                "A struct is used for encapsulation, while a class is used for abstraction"
+            ],
+            "answer": 1,
+            "subtopic": "Introduction to C# Basics",
+            "link": "https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/"
+        },
+        {
+            "id": 6,
+            "question": "What is the purpose of the 'async' and 'await' keywords in C#?",
+            "options": [
+                "To implement multithreading",
+                "To implement asynchronous programming",
+                "To implement synchronous programming",
+                "To implement parallel programming"
+            ],
+            "answer": 1,
+            "subtopic": "Advanced C# Topics and Best Practices",
+            "link": "https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/"
+        },
+        {
+            "id": 7,
+            "question": "How do you handle exceptions in C#?",
+            "options": [
+                "Using try-catch blocks",
+                "Using if-else statements",
+                "Using switch statements",
+                "Using loops"
+            ],
+            "answer": 0,
+            "subtopic": "Advanced C# Topics and Best Practices",
+            "link": "https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/exceptions/"
+        },
+        {
+            "id": 8,
+            "question": "What is the purpose of the 'interface' keyword in C#?",
+            "options": [
+                "To define a class",
+                "To define a struct",
+                "To define an interface",
+                "To define an abstract class"
+            ],
+            "answer": 2,
+            "subtopic": "Object-Oriented Programming in C#",
+            "link": "https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/interfaces/"
+        },
+        {
+            "id": 9,
+            "question": "How do you implement polymorphism in C#?",
+            "options": [
+                "Using method overloading",
+                "Using method overriding",
+                "Using operator overloading",
+                "All of the above"
+            ],
+            "answer": 3,
+            "subtopic": "Object-Oriented Programming in C#",
+            "link": "https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/polymorphism"
+        },
+        {
+            "id": 10,
+            "question": "What is the purpose of the 'nullable' reference type in C#?",
+            "options": [
+                "To allow null values for reference types",
+                "To prevent null values for reference types",
+                "To enable nullable value types",
+                "To disable nullable value types"
+            ],
+            "answer": 0,
+            "subtopic": "Advanced C# Topics and Best Practices",
+            "link": "https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-8#nullable-reference-types"
+        }
+    ],
+    "custom_c++": [
+        {
+            "id": 1,
+            "question": "What is the primary purpose of the 'using namespace std;' directive in C++?",
+            "options": [
+                "To import all standard library functions",
+                "To define a new namespace",
+                "To override the default namespace",
+                "To create a new class"
+            ],
+            "answer": 0,
+            "subtopic": "Introduction to C++",
+            "link": "https://www.w3schools.com/cpp/cpp_namespaces.asp"
+        },
+        {
+            "id": 2,
+            "question": "Which of the following data types is used to store a single character in C++?",
+            "options": [
+                "int",
+                "char",
+                "float",
+                "double"
+            ],
+            "answer": 1,
+            "subtopic": "Variables and Data Types",
+            "link": "https://www.geeksforgeeks.org/c-data-types/"
+        },
+        {
+            "id": 3,
+            "question": "What is the difference between the '=' and '==' operators in C++?",
+            "options": [
+                " '=' is used for comparison, '==' is used for assignment",
+                " '=' is used for assignment, '==' is used for comparison",
+                " '=' is used for addition, '==' is used for subtraction",
+                " '=' is used for subtraction, '==' is used for addition"
+            ],
+            "answer": 1,
+            "subtopic": "Operators and Expressions",
+            "link": "https://www.tutorialspoint.com/cplusplus/cpp_operators.htm"
+        },
+        {
+            "id": 4,
+            "question": "Which control structure is used to execute a block of code repeatedly for a specified number of times in C++?",
+            "options": [
+                "if-else statement",
+                "switch statement",
+                "for loop",
+                "while loop"
+            ],
+            "answer": 2,
+            "subtopic": "Control Structures",
+            "link": "https://www.programiz.com/cpp-programming/for-loop"
+        },
+        {
+            "id": 5,
+            "question": "What is the purpose of the 'return' statement in a C++ function?",
+            "options": [
+                "To exit the program",
+                "To call another function",
+                "To return a value to the caller",
+                "To declare a variable"
+            ],
+            "answer": 2,
+            "subtopic": "Functions",
+            "link": "https://www.cplusplus.com/doc/tutorial/functions/"
+        },
+        {
+            "id": 6,
+            "question": "Which of the following is a dynamic array in C++?",
+            "options": [
+                "Array",
+                "Vector",
+                "List",
+                "Stack"
+            ],
+            "answer": 1,
+            "subtopic": "Arrays and Vectors",
+            "link": "https://www.cplusplus.com/reference/vector/vector/"
+        },
+        {
+            "id": 7,
+            "question": "What is the primary concept of Object-Oriented Programming (OOP) in C++?",
+            "options": [
+                "Inheritance",
+                "Polymorphism",
+                "Encapsulation",
+                "All of the above"
+            ],
+            "answer": 3,
+            "subtopic": "Object-Oriented Programming",
+            "link": "https://www.tutorialspoint.com/cplusplus/cpp_object_oriented.htm"
+        },
+        {
+            "id": 8,
+            "question": "How do you open a file in read mode in C++?",
+            "options": [
+                "fstream file('file.txt', ios::out);",
+                "fstream file('file.txt', ios::in);",
+                "fstream file('file.txt', ios::app);",
+                "fstream file('file.txt', ios::trunc);"
+            ],
+            "answer": 1,
+            "subtopic": "File Input/Output",
+            "link": "https://www.cplusplus.com/reference/fstream/fstream/"
+        },
+        {
+            "id": 9,
+            "question": "What is the purpose of the 'try-catch' block in C++?",
+            "options": [
+                "To handle runtime errors",
+                "To optimize code performance",
+                "To improve code readability",
+                "To reduce memory usage"
+            ],
+            "answer": 0,
+            "subtopic": "Error Handling and Debugging",
+            "link": "https://www.w3schools.com/cpp/cpp_exceptions.asp"
+        },
+        {
+            "id": 10,
+            "question": "Which of the following is an advanced topic in C++?",
+            "options": [
+                "Multithreading",
+                "Template Metaprogramming",
+                "Smart Pointers",
+                "All of the above"
+            ],
+            "answer": 3,
+            "subtopic": "Advanced Topics in C++",
+            "link": "https://www.cppreference.com/w/cpp"
+        }
+    ],
+    "custom_bootstrap": [
+        {
+            "id": 1,
+            "question": "What is the primary purpose of Bootstrap?",
+            "options": [
+                "To create a responsive web design",
+                "To develop a mobile application",
+                "To design a desktop application",
+                "To create a backend server"
+            ],
+            "answer": 0,
+            "subtopic": "Introduction to Bootstrap",
+            "link": "https://getbootstrap.com/docs/5.2/getting-started/introduction/"
+        },
+        {
+            "id": 2,
+            "question": "How do you include Bootstrap in your HTML file?",
+            "options": [
+                "By using a CDN link in the head section",
+                "By downloading and hosting it locally",
+                "By using a package manager like npm",
+                "All of the above"
+            ],
+            "answer": 3,
+            "subtopic": "Setting Up Bootstrap",
+            "link": "https://getbootstrap.com/docs/5.2/getting-started/download/"
+        },
+        {
+            "id": 3,
+            "question": "What is the basic structure of the Bootstrap grid system?",
+            "options": [
+                "Rows and columns",
+                "Containers and items",
+                "Grids and panels",
+                "Tables and lists"
+            ],
+            "answer": 0,
+            "subtopic": "Grid System",
+            "link": "https://getbootstrap.com/docs/5.2/layout/grid/"
+        },
+        {
+            "id": 4,
+            "question": "Which of the following is a Bootstrap component?",
+            "options": [
+                "Button",
+                "Table",
+                "Form",
+                "All of the above"
+            ],
+            "answer": 3,
+            "subtopic": "Bootstrap Components",
+            "link": "https://getbootstrap.com/docs/5.2/components/"
+        },
+        {
+            "id": 5,
+            "question": "What is the purpose of using the 'xs', 'sm', 'md', 'lg', and 'xl' classes in Bootstrap?",
+            "options": [
+                "To define the width of a column",
+                "To define the height of a row",
+                "To define the screen size for responsive design",
+                "To define the color scheme of a component"
+            ],
+            "answer": 2,
+            "subtopic": "Responsive Design",
+            "link": "https://getbootstrap.com/docs/5.2/layout/breakpoints/"
+        },
+        {
+            "id": 6,
+            "question": "What is the purpose of the 'navbar' class in Bootstrap?",
+            "options": [
+                "To create a basic navigation bar",
+                "To create a responsive navigation bar",
+                "To create a dropdown menu",
+                "To create a breadcrumb"
+            ],
+            "answer": 1,
+            "subtopic": "Bootstrap Navigation",
+            "link": "https://getbootstrap.com/docs/5.2/components/navbar/"
+        },
+        {
+            "id": 7,
+            "question": "How do you create a basic form in Bootstrap?",
+            "options": [
+                "By using the 'form' class",
+                "By using the 'form-control' class",
+                "By using the 'form-group' class",
+                "By using the 'form-inline' class"
+            ],
+            "answer": 2,
+            "subtopic": "Bootstrap Forms",
+            "link": "https://getbootstrap.com/docs/5.2/forms/overview/"
+        },
+        {
+            "id": 8,
+            "question": "What is the purpose of the 'alert' class in Bootstrap?",
+            "options": [
+                "To create a warning message",
+                "To create an error message",
+                "To create a success message",
+                "To create a notification message"
+            ],
+            "answer": 3,
+            "subtopic": "Bootstrap Alerts and Notifications",
+            "link": "https://getbootstrap.com/docs/5.2/components/alerts/"
+        },
+        {
+            "id": 9,
+            "question": "How do you trigger a modal in Bootstrap?",
+            "options": [
+                "By using the 'data-toggle' attribute",
+                "By using the 'data-target' attribute",
+                "By using the 'modal' class",
+                "By using JavaScript"
+            ],
+            "answer": 0,
+            "subtopic": "Bootstrap Modal and Popup",
+            "link": "https://getbootstrap.com/docs/5.2/components/modal/"
+        },
+        {
+            "id": 10,
+            "question": "How can you customize Bootstrap to fit your needs?",
+            "options": [
+                "By using a precompiler like Sass",
+                "By using a CSS framework like CSS Grid",
+                "By using a JavaScript library like jQuery",
+                "By using a package manager like npm"
+            ],
+            "answer": 0,
+            "subtopic": "Customizing Bootstrap",
+            "link": "https://getbootstrap.com/docs/5.2/customize/"
+        }
+    ],
+    "custom_ada": [
+        {
+            "id": 1,
+            "question": "What is the primary purpose of the Ada programming language?",
+            "options": [
+                "To develop web applications",
+                "To create operating systems",
+                "To design embedded systems and safety-critical software",
+                "To build artificial intelligence models"
+            ],
+            "answer": 2,
+            "subtopic": "Introduction to Ada",
+            "link": "https://www.adaic.org/about/"
+        },
+        {
+            "id": 2,
+            "question": "Which of the following is a recommended development environment for Ada?",
+            "options": [
+                "Visual Studio Code",
+                "GNAT Studio",
+                "Eclipse",
+                "All of the above"
+            ],
+            "answer": 3,
+            "subtopic": "Setting Up the Development Environment",
+            "link": "https://www.adacore.com/gnat-pro"
+        },
+        {
+            "id": 3,
+            "question": "What is the basic syntax for declaring a variable in Ada?",
+            "options": [
+                "variable_name : data_type;",
+                "data_type variable_name;",
+                "var variable_name = data_type;",
+                "let variable_name = data_type;"
+            ],
+            "answer": 0,
+            "subtopic": "Basic Syntax and Data Types",
+            "link": "https://learn.adacore.com/courses/Ada_For_The_C_Programmer/chapters/03_Basic_Syntax.html"
+        },
+        {
+            "id": 4,
+            "question": "Which control structure is used to execute a block of code repeatedly in Ada?",
+            "options": [
+                "if",
+                "while",
+                "for",
+                "loop"
+            ],
+            "answer": 1,
+            "subtopic": "Control Structures and Functions",
+            "link": "https://en.wikibooks.org/wiki/Ada_Programming/Control#Loops"
+        },
+        {
+            "id": 5,
+            "question": "What is the term for the concept of bundling data and methods that operate on that data in Ada?",
+            "options": [
+                "Object-oriented programming",
+                "Functional programming",
+                "Procedural programming",
+                "Declarative programming"
+            ],
+            "answer": 0,
+            "subtopic": "Object-Oriented Programming in Ada",
+            "link": "https://www.adaic.org/resources/add-content/walkthroughs/oop/"
+        },
+        {
+            "id": 6,
+            "question": "How do you handle exceptions in Ada?",
+            "options": [
+                "Using try-catch blocks",
+                "Using if-else statements",
+                "Using exception handlers",
+                "Using error codes"
+            ],
+            "answer": 2,
+            "subtopic": "Exception Handling and Error Management",
+            "link": "https://en.wikibooks.org/wiki/Ada_Programming/Exception_Handling"
+        },
+        {
+            "id": 7,
+            "question": "What is the purpose of the 'with' clause in Ada?",
+            "options": [
+                "To import packages",
+                "To declare variables",
+                "To define functions",
+                "To handle exceptions"
+            ],
+            "answer": 0,
+            "subtopic": "Input/Output Operations and File Management",
+            "link": "https://learn.adacore.com/courses/Ada_For_The_C_Programmer/chapters/07_Packages.html"
+        },
+        {
+            "id": 8,
+            "question": "Which Ada feature allows for concurrent execution of tasks?",
+            "options": [
+                "Multithreading",
+                "Multiprocessing",
+                "Tasking",
+                "Coroutines"
+            ],
+            "answer": 2,
+            "subtopic": "Concurrency and Multitasking in Ada",
+            "link": "https://en.wikibooks.org/wiki/Ada_Programming/Tasking"
+        },
+        {
+            "id": 9,
+            "question": "What is the name of the Ada programming standard that provides guidelines for writing reliable and maintainable code?",
+            "options": [
+                "Ada 95",
+                "Ada 2005",
+                "Ada 2012",
+                "Ada Quality and Style Guide"
+            ],
+            "answer": 3,
+            "subtopic": "Advanced Topics and Best Practices",
+            "link": "https://www.adaic.org/standards/83/html/RM-V-1-13.html"
+        },
+        {
+            "id": 10,
+            "question": "What type of applications are well-suited for development using the Ada programming language?",
+            "options": [
+                "Web applications",
+                "Mobile applications",
+                "Real-time systems and safety-critical systems",
+                "Gaming applications"
+            ],
+            "answer": 2,
+            "subtopic": "Project Development and Real-World Applications",
+            "link": "https://www.adaic.org/about/"
+        }
+    ],
+    "custom_css": [
+        {
+            "id": 1,
+            "question": "What does CSS stand for?",
+            "options": [
+                "Cascading Style Sheets",
+                "Cascading Scripting Sheets",
+                "Creative Style Sheets",
+                "Custom Style Sheets"
+            ],
+            "answer": 0,
+            "subtopic": "Introduction to CSS and Selectors",
+            "link": "https://www.w3schools.com/css/"
+        },
+        {
+            "id": 2,
+            "question": "Which CSS selector is used to select all elements with a specific class?",
+            "options": [
+                "id",
+                "class",
+                "tag",
+                "attribute"
+            ],
+            "answer": 1,
+            "subtopic": "Introduction to CSS and Selectors",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors"
+        },
+        {
+            "id": 3,
+            "question": "What is the purpose of the 'color' property in CSS?",
+            "options": [
+                "To set the background color",
+                "To set the text color",
+                "To set the border color",
+                "To set the font size"
+            ],
+            "answer": 1,
+            "subtopic": "CSS Properties and Values",
+            "link": "https://www.w3schools.com/css/css_colors.asp"
+        },
+        {
+            "id": 4,
+            "question": "Which unit is used to set the font size in CSS?",
+            "options": [
+                "px",
+                "em",
+                "cm",
+                "All of the above"
+            ],
+            "answer": 3,
+            "subtopic": "CSS Properties and Values",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/font-size"
+        },
+        {
+            "id": 5,
+            "question": "What is the difference between 'margin' and 'padding' in CSS?",
+            "options": [
+                "Margin is the space between elements, padding is the space between content and border",
+                "Margin is the space between content and border, padding is the space between elements",
+                "Margin and padding are the same thing",
+                "Margin is used for horizontal spacing, padding is used for vertical spacing"
+            ],
+            "answer": 0,
+            "subtopic": "CSS Properties and Values",
+            "link": "https://www.w3schools.com/css/css_margin.asp"
+        },
+        {
+            "id": 6,
+            "question": "What is the purpose of the 'display' property in CSS?",
+            "options": [
+                "To set the visibility of an element",
+                "To set the position of an element",
+                "To set the layout of an element",
+                "To set the color of an element"
+            ],
+            "answer": 2,
+            "subtopic": "CSS Layout and Responsive Design",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/display"
+        },
+        {
+            "id": 7,
+            "question": "Which CSS property is used to make a website responsive?",
+            "options": [
+                "width",
+                "height",
+                "max-width",
+                "media query"
+            ],
+            "answer": 3,
+            "subtopic": "CSS Layout and Responsive Design",
+            "link": "https://www.w3schools.com/css/css_rwd_mediaqueries.asp"
+        },
+        {
+            "id": 8,
+            "question": "What is the purpose of the 'flexbox' layout mode in CSS?",
+            "options": [
+                "To create a grid-based layout",
+                "To create a flexible box layout",
+                "To create a table-based layout",
+                "To create a fixed layout"
+            ],
+            "answer": 1,
+            "subtopic": "CSS Layout and Responsive Design",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout"
+        },
+        {
+            "id": 9,
+            "question": "How do you make a container take up the full width of its parent in CSS?",
+            "options": [
+                "Set the width to 100%",
+                "Set the margin to 0",
+                "Set the padding to 0",
+                "Set the display to block"
+            ],
+            "answer": 0,
+            "subtopic": "CSS Layout and Responsive Design",
+            "link": "https://www.w3schools.com/css/css_width.asp"
+        },
+        {
+            "id": 10,
+            "question": "What is the purpose of the 'grid' layout mode in CSS?",
+            "options": [
+                "To create a flexible box layout",
+                "To create a grid-based layout",
+                "To create a table-based layout",
+                "To create a fixed layout"
+            ],
+            "answer": 1,
+            "subtopic": "CSS Layout and Responsive Design",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout"
+        }
+    ],
+    "custom_express.js": [
+        {
+            "id": 1,
+            "question": "What is the primary purpose of Express.js?",
+            "options": [
+                "A web framework for building desktop applications",
+                "A framework for building web applications",
+                "A library for handling database operations",
+                "A tool for creating mobile apps"
+            ],
+            "answer": 1,
+            "subtopic": "Introduction to Express.js and Setting up a Basic Server",
+            "link": "https://expressjs.com/"
+        },
+        {
+            "id": 2,
+            "question": "How do you create a basic server in Express.js?",
+            "options": [
+                "Using the `http` module",
+                "Using the `express` function and calling `listen()`",
+                "Using the `socket` module",
+                "Using the `https` module"
+            ],
+            "answer": 1,
+            "subtopic": "Introduction to Express.js and Setting up a Basic Server",
+            "link": "https://expressjs.com/en/starter/hello-world.html"
+        },
+        {
+            "id": 3,
+            "question": "What is routing in Express.js?",
+            "options": [
+                "The process of handling requests and sending responses",
+                "The process of setting up a database connection",
+                "The process of creating a new Express app",
+                "The process of handling errors"
+            ],
+            "answer": 0,
+            "subtopic": "Routing and Handling Requests in Express.js",
+            "link": "https://expressjs.com/en/guide/routing.html"
+        },
+        {
+            "id": 4,
+            "question": "How do you handle GET requests in Express.js?",
+            "options": [
+                "Using the `app.get()` method",
+                "Using the `app.post()` method",
+                "Using the `app.put()` method",
+                "Using the `app.delete()` method"
+            ],
+            "answer": 0,
+            "subtopic": "Routing and Handling Requests in Express.js",
+            "link": "https://expressjs.com/en/starter/basic-routing.html"
+        },
+        {
+            "id": 5,
+            "question": "What is middleware in Express.js?",
+            "options": [
+                "A function that has access to the request and response objects",
+                "A function that only has access to the request object",
+                "A function that only has access to the response object",
+                "A function that has no access to the request or response objects"
+            ],
+            "answer": 0,
+            "subtopic": "Middleware and Advanced Topics in Express.js",
+            "link": "https://expressjs.com/en/guide/using-middleware.html"
+        },
+        {
+            "id": 6,
+            "question": "How do you use middleware in Express.js?",
+            "options": [
+                "By passing it to the `app.use()` method",
+                "By passing it to the `app.get()` method",
+                "By passing it to the `app.post()` method",
+                "By passing it to the `app.put()` method"
+            ],
+            "answer": 0,
+            "subtopic": "Middleware and Advanced Topics in Express.js",
+            "link": "https://expressjs.com/en/guide/using-middleware.html"
+        },
+        {
+            "id": 7,
+            "question": "What is the purpose of the `next()` function in Express.js middleware?",
+            "options": [
+                "To pass control to the next middleware function",
+                "To send a response to the client",
+                "To handle an error",
+                "To redirect to a different route"
+            ],
+            "answer": 0,
+            "subtopic": "Middleware and Advanced Topics in Express.js",
+            "link": "https://expressjs.com/en/guide/using-middleware.html"
+        },
+        {
+            "id": 8,
+            "question": "How do you handle errors in Express.js?",
+            "options": [
+                "Using a middleware function with four arguments",
+                "Using a middleware function with three arguments",
+                "Using a middleware function with two arguments",
+                "Using a middleware function with one argument"
+            ],
+            "answer": 0,
+            "subtopic": "Middleware and Advanced Topics in Express.js",
+            "link": "https://expressjs.com/en/guide/error-handling.html"
+        },
+        {
+            "id": 9,
+            "question": "What is the difference between `app.route()` and `app.use()` in Express.js?",
+            "options": [
+                "`app.route()` is used for routing, while `app.use()` is used for middleware",
+                "`app.route()` is used for middleware, while `app.use()` is used for routing",
+                "`app.route()` is used for handling errors, while `app.use()` is used for routing",
+                "`app.route()` is used for handling requests, while `app.use()` is used for handling responses"
+            ],
+            "answer": 0,
+            "subtopic": "Routing and Handling Requests in Express.js",
+            "link": "https://expressjs.com/en/guide/routing.html"
+        },
+        {
+            "id": 10,
+            "question": "How do you organize routes in a large Express.js application?",
+            "options": [
+                "By using a single route file",
+                "By using multiple route files and `app.use()`",
+                "By using a single middleware function",
+                "By using multiple middleware functions"
+            ],
+            "answer": 1,
+            "subtopic": "Routing and Handling Requests in Express.js",
+            "link": "https://expressjs.com/en/starter/organizing.html"
+        }
+    ],
+    "custom_html": [
+        {
+            "id": 1,
+            "question": "What does HTML stand for?",
+            "options": [
+                "HyperText Markup Language",
+                "HyperText Making Language",
+                "HyperText Markup Lisp",
+                "HyperText Making Lisp"
+            ],
+            "answer": 0,
+            "subtopic": "Introduction to HTML and Basic Syntax",
+            "link": "https://www.w3schools.com/html/"
+        },
+        {
+            "id": 2,
+            "question": "What is the basic structure of an HTML document?",
+            "options": [
+                "head, body, html",
+                "html, head, body",
+                "body, head, html",
+                "html, body, head"
+            ],
+            "answer": 1,
+            "subtopic": "HTML Structure and Elements",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        },
+        {
+            "id": 3,
+            "question": "What is the purpose of the <!DOCTYPE> declaration in HTML?",
+            "options": [
+                "To declare the document type",
+                "To link to an external stylesheet",
+                "To specify the character encoding",
+                "To define a JavaScript function"
+            ],
+            "answer": 0,
+            "subtopic": "Introduction to HTML and Basic Syntax",
+            "link": "https://www.w3schools.com/html/html_basic.asp"
+        },
+        {
+            "id": 4,
+            "question": "Which HTML element is used to define a paragraph of text?",
+            "options": [
+                "<p>",
+                "<span>",
+                "<div>",
+                "<h1>"
+            ],
+            "answer": 0,
+            "subtopic": "HTML Structure and Elements",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p"
+        },
+        {
+            "id": 5,
+            "question": "What is the purpose of HTML attributes?",
+            "options": [
+                "To provide additional information about an element",
+                "To define a new element",
+                "To specify the layout of a page",
+                "To add interactivity to a page"
+            ],
+            "answer": 0,
+            "subtopic": "HTML Attributes and Forms",
+            "link": "https://www.w3schools.com/html/html_attributes.asp"
+        },
+        {
+            "id": 6,
+            "question": "Which HTML attribute is used to specify the source of an image?",
+            "options": [
+                "src",
+                "alt",
+                "title",
+                "href"
+            ],
+            "answer": 0,
+            "subtopic": "HTML Attributes and Forms",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img"
+        },
+        {
+            "id": 7,
+            "question": "What is the purpose of the <form> element in HTML?",
+            "options": [
+                "To create a table",
+                "To define a paragraph of text",
+                "To create a hyperlink",
+                "To collect user input"
+            ],
+            "answer": 3,
+            "subtopic": "HTML Attributes and Forms",
+            "link": "https://www.w3schools.com/html/html_forms.asp"
+        },
+        {
+            "id": 8,
+            "question": "Which HTML element is used to define a header cell in a table?",
+            "options": [
+                "<th>",
+                "<td>",
+                "<tr>",
+                "<table>"
+            ],
+            "answer": 0,
+            "subtopic": "HTML Structure and Elements",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th"
+        },
+        {
+            "id": 9,
+            "question": "What is the purpose of the <label> element in HTML?",
+            "options": [
+                "To define a paragraph of text",
+                "To create a hyperlink",
+                "To specify the source of an image",
+                "To provide a text description for a form field"
+            ],
+            "answer": 3,
+            "subtopic": "HTML Attributes and Forms",
+            "link": "https://www.w3schools.com/html/html_forms.asp"
+        },
+        {
+            "id": 10,
+            "question": "Which HTML element is used to define a division or a section in an HTML document?",
+            "options": [
+                "<div>",
+                "<span>",
+                "<p>",
+                "<h1>"
+            ],
+            "answer": 0,
+            "subtopic": "HTML Structure and Elements",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div"
+        }
+    ]
+}
